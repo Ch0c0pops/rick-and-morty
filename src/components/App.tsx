@@ -5,7 +5,7 @@ import styles from '../styles/app.module.scss'
 import Nav from "./Nav";
 import MainWindow from "./MainWindow";
 
-function App() {
+const App: React.FC =()=> {
     return (
         <div className={styles.app_wrapper}>
 

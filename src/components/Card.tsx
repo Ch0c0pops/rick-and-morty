@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/card.module.scss'
+import {UserProps} from "../types/userTypes";
 
 const Card = (user: any) => {
 

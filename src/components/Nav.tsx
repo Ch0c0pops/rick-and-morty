@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import {NavLink} from 'react-router-dom';
 import styles from '../styles/nav.module.scss';
 
-export default function Nav() {
+const Nav: React.FC =()=> {
     return (
         <Box sx={{flexGrow: 1}}>
             <AppBar color="secondary" position="static">
@@ -29,3 +29,4 @@ export default function Nav() {
         </Box>
     );
 }
+export default Nav

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/about.module.scss';
 
-const About = () => {
+const About: React.FC = () => {
     return (
         <div className={styles.about}>
             <img src="https://i.ibb.co/pdcVSCY/avatar.jpg" alt="avatar"/>

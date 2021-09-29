@@ -3,7 +3,7 @@ import PaginationComponent from "./PaginationComponent";
 import SearchBar from "./SearchBar";
 import CardsList from "./CardsList";
 
-const MainWindow = () => {
+const MainWindow: React.FC = () => {
     return (
         <>
             <PaginationComponent/>
